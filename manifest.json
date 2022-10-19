@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name": "Paint it pink",
+    "version": "0.1.0",
+    "description": "Paints whole world pink",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}

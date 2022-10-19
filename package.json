@@ -1,0 +1,15 @@
+{
+  "name": "pink-extension",
+  "version": "1.0.0",
+  "description": "Paints every paragraph in pink",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Celal Ergün",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "jest": "^29.2.1"
+  }
+}
