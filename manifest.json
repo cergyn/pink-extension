@@ -2,14 +2,17 @@
     "manifest_version" : 2,
     "name": "Paint it pink",
     "version": "0.1.0",
-    "description": "Paints whole world pink",
+    "description": "Paints the whole world pink",
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "js": ["content.js"]
         }
     ],
+    "permissions": ["tabs"],
     "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Let's paint the whole world pink"
     },
     "background": {
         "scripts": ["background.js"]
